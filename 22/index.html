@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Contacts</title>
+  <link rel="stylesheet" href="./style.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js"></script>
+  <script src="./Controller.js" defer></script>
+  <script src="./model/ContactApi.js" defer></script>
+  <script src="./model/Collection.js" defer></script>
+  <script src="./view/ContactListView.js" defer></script>
+  <script src="./view/ContactFormView.js" defer></script>
+
+  <script src="index.js" type="module"></script>
+</head>
+<body>
+  <table>
+    <div id="container"></div>
+
+  <tr>
+    <th>Name</th>
+    <th>Surname</th>
+    <th>Phone</th>
+    <th>Actions</th>
+  </tr>
+
+  </table>
+  <script id="contactTemplate" type="text/template">
+    <tr class="contactItem">
+      <td>{{name}}</td>
+      <td>{{surname}}</td>
+      <td>{{phone}}</td>
+      <td><span><button type="button" class="deleteBtn">Delete</button></span></td>
+    </tr>
+  </script>
+
+</body>
+</html>

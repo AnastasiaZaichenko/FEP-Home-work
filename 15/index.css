@@ -1,0 +1,21 @@
+.nav-item {
+    border: 2px solid yellow;
+    width: 70px;
+}
+
+.nav-item-active {
+    background-color: yellow;
+}
+
+.content-item {
+border: 2px solid yellow;
+background-color: yellow;
+margin-bottom: 5px;
+width: 400px;
+height: 150px;
+display: none;
+}
+
+.content-item-active {
+    display: block;
+}

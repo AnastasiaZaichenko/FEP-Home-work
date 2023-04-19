@@ -1,0 +1,9 @@
+.body { display: flex;
+}
+
+.divPictures {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 1200px;
+}
