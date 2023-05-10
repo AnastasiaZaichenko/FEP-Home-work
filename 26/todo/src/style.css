@@ -1,0 +1,12 @@
+li {
+    display: flex;
+    gap:10px
+}
+
+li > span {
+    width: 150px
+
+}
+.grade {
+    width: 20px
+}
